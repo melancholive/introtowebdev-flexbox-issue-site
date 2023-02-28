@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&display=swap');
+
+/*
+color palette:
+- palevioletred
+- whitesmoke
+- dusty brown: #393838 
+- dusty green: #868f83
+*/
+
+body, html{
+	box-sizing: border-box;
+	background-color: #393838;
+	color: palevioletred;
+	padding: 0px;
+	margin: 0px;
+	font-family: 'Electrolize', sans-serif;
+	text-align: center;
+}
+
+.maincontainer{
+}
+
+.flexblock{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.topstart{
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+
+.navigation{
+	position: -webkit-sticky;
+	position: sticky;
+	z-index:1;
+	top: 0;
+	background-color: palevioletred;
+}
+
+.navigation a{
+	padding: 15px;
+	color: whitesmoke;
+	text-decoration: none;
+}
+
+h1{
+	position: absolute;
+	text-align: center;
+	color: whitesmoke;
+	font-size: 3rem;
+	padding-left: 5%;
+	padding-right: 5%;
+	width: 100%;
+	text-shadow: 0 0 3px palevioletred;, 0 0 5px palevioletred;
+}
+
+.bodyblockone{
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+.bodyblocktwo{
+	padding-left: 5%;
+	padding-right: 5%;
+	background-color: #868f83;
+	color: #393838;
+	text-align: left;
+}
+
+.titletext{
+	color: whitesmoke;
+	font-size: 120%;
+}
+
+
+.textimage{
+	width: 100%;
+	object-fit: cover;
+	aspect-ratio: 16 / 9;
+}
+
+.halfblock{
+	width: 45%;
+	padding: 20px;
+	text-align: left;
+}
+
+.thirdblock{
+	width: 28%;
+	padding: 20px;
+	text-align: left;
+	align-items: flex-start;
+}
+
+.fullblock{
+	padding: 0% 8%;
+	text-align: left;
+}
+
+.bottom{
+	padding-bottom: 20px;
+}
+
